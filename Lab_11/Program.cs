@@ -1,7 +1,6 @@
-﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+//Задание 13.36
 public class Student
 {
     public string Surname { get; set; }
