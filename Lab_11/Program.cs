@@ -1,5 +1,34 @@
 using System.Collections.Generic;
 using System.Linq;
+//Задание 11.51
+// class Program
+// {
+//     static void Main()
+//     {
+//         double[] array = { -5.5, 0, 3.2, -1, 0, 4.5 };
+
+//         double a1 = array[0]; // Элемент с номером 0 (можно задать вручную)
+//         double a = 1;
+//         double b = 2;
+//         double c = 3;
+
+//         var resultA = array.Select(x =>
+//             x < 0 ? x + a1 :
+//             x == 0 ? x - b :
+//             x
+//         ).ToArray();
+
+//         Console.WriteLine("Вариант А: " + string.Join(", ", resultA));
+
+//         var resultB = array.Select(x =>
+//             x > 0 ? x - a :
+//             x < 0 ? x - b :
+//             x + c
+//         ).ToArray();
+
+//         Console.WriteLine("Вариант Б: " + string.Join(", ", resultB));
+//     }
+// }
 //Задание 13.36
 public class Student
 {
